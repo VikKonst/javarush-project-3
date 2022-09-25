@@ -1,14 +1,16 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Продолжение следует</title>
-  <link rel="stylesheet" href="/css/end.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/end.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
 </head>
 <body>
 <section class="d-flex">
-  <video src="/assets/smoke.mp4" autoplay muted></video>
+  <video src="${pageContext.request.contextPath}/assets/smoke.mp4" autoplay muted></video>
   <h1>
     <span>T</span>
     <span>O</span>

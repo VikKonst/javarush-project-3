@@ -4,16 +4,16 @@
 <html>
 <head>
 <%--    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.css">--%>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
+    <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 
 </head>
 <body>
 <div align="center" class="fst-italic">
-    <img  src="/assets/detective_logo.png" class="img-fluid" alt="logo" style="height:413px">
+    <img  src="${pageContext.request.contextPath}/assets/detective_logo.png" class="img-fluid" alt="logo" style="height:413px">
     <h1 style="font-family: fantasy Papyrus">Добро пожаловать на квест!</h1>
     <h2 style="font-family: fantasy Papyrus">Представьтесь, пожалуйста:</h2>
-    <form action="/entrance" method="post">
+    <form action="${pageContext.request.contextPath}/entrance" method="post">
         <div>
             <label for="name"></label>
             <input type="text" id="name" name="username">

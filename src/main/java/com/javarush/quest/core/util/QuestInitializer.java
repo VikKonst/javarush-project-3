@@ -18,12 +18,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class QuestInitializer {
-    private File excel;
-    private File json;
 
     public Map<String, QuestStep> getQuestSteps() {
-        excel = retrieveQuestData("data.xlsx");
-        json = retrieveQuestData("quest.json");
+        File excel = retrieveQuestData("data.xlsx");
+        File json = retrieveQuestData("quest.json");
         try {
            return createQuestSteps(excel, json);
         } catch (IOException | InvalidFormatException e) {

@@ -9,8 +9,8 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
-  <name>javarush_project_3 Maven Webapp</name>
-  <packaging>jar</packaging>
+  <name>app</name>
+  <packaging>war</packaging>
 
   <dependencies>
 
@@ -80,7 +80,7 @@
   </dependencies>
 
   <build>
-    <finalName>quest</finalName>
+    <finalName>app</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

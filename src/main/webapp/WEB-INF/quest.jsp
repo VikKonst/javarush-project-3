@@ -9,7 +9,7 @@
     <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="masthead" style="background-image: url('/assets/background2.png');">
+<div class="masthead" style="background-image: url('${pageContext.request.contextPath}/assets/background2.png');">
     <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
         <h1 class="fw-bolder">История Льюиса Молтби</h1>
         <p class="description" style="font-family: Gill Sans, sans-serif">

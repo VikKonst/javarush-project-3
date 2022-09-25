@@ -17,7 +17,7 @@ public class EndServletTest {
     @Test
     public void doGet() throws ServletException, IOException {
 
-        String path = "/WEB-INF/html/end.html";
+        String path = "/WEB-INF/end.jsp";
         final EndServlet servlet = new EndServlet();
 
         final HttpServletRequest request = mock(HttpServletRequest.class);

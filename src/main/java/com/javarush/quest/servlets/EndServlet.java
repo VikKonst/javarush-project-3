@@ -18,7 +18,7 @@ public class EndServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request
-                .getRequestDispatcher("/WEB-INF/html/end.html")
+                .getRequestDispatcher("/WEB-INF/end.jsp")
                 .forward(request, response);
     }
 
